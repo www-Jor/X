@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="./about.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./about.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav> 
+        <h1 class="h1"> <span class="paw"><i class="fa-solid fa-paw"></i></span> SHOP </h1>
+        <div class="navBar">
+            <a href="../index.html" >Home</a> 
+            <button id="menuOpenBtn">Menu</button> 
+            <button id="menuCloseBtn" style="display: none;">Menu</button> 
+            <a href="#" style="color: #d63485;">About</a> 
+            <a href="../contact/contact.html" >Contact</a> 
+        </div>
+        <div class="navBar2" id="navBar2">
+            <a href="#" style="color: #d63485;">Home</a> 
+            <button id="menuOpenBtn">Menu</button> 
+            <button id="menuCloseBtn" style="display: none;">Menu</button> 
+            <a href="./about/about.html" >About</a> 
+            <a href="./contact/contact.html" >Contact</a> 
+        </div>
+        <div>
+            <button  id="openMenu"> <i class="fa-solid fa-bars"></i> </button>
+                <button  id="hideMenu"> <i class="fa-solid fa-bars"></i> </button>
+            <!-- <a href="#"><span class="cart"><i class="fa-solid fa-cart-shopping"></i> 
+                <div id="round" class="round"></div> </span>
+            </a> -->
+            <button id="buttonUserOpen"><span class="user"><i class="fa-regular fa-user"></i></span></button>
+            <button id="buttonUserClose"><span class="user"><i class="fa-solid fa-user"></i></span></button>
+        </div>
+        </nav>
+        <!-- menu open and close -->
+        <div id="menu" class="menu">
+            <a href="../index.html#dog">Dogs <i class="fa-solid fa-dog"></i> </a>
+            <a href="../index.html##cat">Cats <i class="fa-solid fa-cat"></i> </a>
+            <a href="../index.html##bird">Birds <i class="fa-solid fa-crow"></i> </a>
+            <a href="../index.html##fish">Fish <i class="fa-solid fa-fish"></i> </a>
+        </div>
+
+        <!-- form -->
+        <form id="formSingIn" action="#">
+            <h1>Sign in </h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input type="text" placeholder="Login" id="login" />
+            <input type="password" placeholder="Password" id="password" />
+            <a href="#">Forgot your password? 
+            <a href="#"  id="signUpA"> Sign Up </a></a> 
+            <button  class="signInbtn" id="signInbtn">Sign In</button>
+        </form>
+        <!-- Sign Up -->
+        <form id="formSingUp" action="#">
+            <h1>Create Account</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your name for registration</span>
+            <input type="text" placeholder="Name" id="Name">
+            <input type="text" placeholder="Login" id="Login">
+            <input type="password" placeholder="Password" id="Password">
+
+            <button id="signUpBtn" class="signUpBtn">Sign Up</button>
+        </form>
+        <!-- end form -->
+        <header>
+            <h1 class="name">
+                <span class="hi"> About </span>  Our <br>Online Shop
+             </h1>
+             <button  class="shopButton shop"> <a href="../index.html#btnForShoping"> Shop Now </a></button>
+        </header>
+
+
+
+        <!-- main -->
+        <main>
+            <section>
+                <div class="market">
+                    <h2> Our Market <i class="fa-solid fa-shop"></i></i></h2>
+                    <hr>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi sapiente corrupti error 
+                          <br> repellat veritatis odit
+                        dolorem in nesciunt dolore. Commodi cum quia provident voluptas <br> aspernatur amet in explicabo maiores saepe similique
+                        incidunt voluptate, obcaecati  and  <img src="https://c0.wallpaperflare.com/preview/310/822/412/cat-pet-shop-pet-store-thumbnail.jpg" alt=""><br> excepturi vitae culpa? Omnis, voluptatibus animi. Iure placeat recusandae magni
+                        cupiditate <br> quam vero expedita tempore error totam harum, voluptatum illo dolore. Exercitationem, accusamus, aliquam
+                        voluptatibus quas veniam, similique nostrum consequuntur aliquid excepturi voluptate reiciendis! Quae, delectus
+                        mollitia rem totam suscipit nulla facere asperiores, nam veniam pariatur praesentium doloribus alias labore ducimus
+                        aspernatur. Illo neque nisi quasi, expedita omnis aut reprehenderit eos? Nobis veritatis aspernatur nostrum ab!</p>
+                        <div class="openHours">
+                            <div class="timeOpen">
+                                <h2>Open Hours <i class="fa-solid fa-clock"></i></h2>
+                                <p>Mon & Tue CLOSED</p>
+                                <p>Wednesday 10.00 - 24.00</p>
+                                <p>Thursday 10:00 - 24:00</p>
+                                <p>Friday 10:00 - 12:00</p>
+                                <p>Saturday 10:00 - 23:00</p>
+                                <p>Sunday Closed</p>
+                            </div>
+                            <div class="none" id="time">
+                                 <p id="timeP"></p>
+                            </div>
+                            <img src="https://t3.ftcdn.net/jpg/04/81/85/46/240_F_481854656_gHGTnBscKXpFEgVTwAT4DL4NXXNhDKU9.jpg" alt="">
+                    
+                       </div>
+                    </div>
+                    <br><br><br>
+                <div id="contact">
+                    <h2> Our Team Members <i class="fa-solid fa-people-group"></i></i></h2>
+                 <hr>
+                </div> 
+                <div class="team">
+                    <div class="teamDiv"><img src="./img/karry.jpg" alt="nkar">
+                        <div>
+                            <h3> Karry Pitcher </h3> <br>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Natus, ducimus.</p>
+                           </div>
+                    </div>
+                    <div class="teamDiv"><img src="./img/johnny.jpg" alt="nkar">
+                        <div>
+                            <h3>Johnny William </h3> <br>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Natus, ducimus.</p>
+                           </div>
+                    </div>
+                    <div class="teamDiv"><img src="./img/mary.jpg" alt="nkar">
+                       <div>
+                        <h3> Mary Cool </h3><br>
+                        <p>Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Natus, ducimus.</p>
+                       </div>
+                    </div>
+                </div>
+                <div id="contact" class="our">
+                    <h2> Our Location   <i class="fa-solid fa-location-dot"></i></i></h2>
+                 <hr>
+                </div> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97550.33248261933!2d44.515328000000004!3d40.1768448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sam!4v1683985868955!5m2!1sru!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main> 
+        <footer> 
+            <div>
+            <button> <i class="fa-brands fa-telegram fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-instagram fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-facebook fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-youtube fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-linkedin fa-2xl"></i></button>
+            </div>
+        </footer>
+</body>
+</html>

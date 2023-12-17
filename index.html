@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+</head>
+<body>
+    <nav> 
+        <h1 class="h1"> <span class="paw"><i class="fa-solid fa-paw"></i></span> SHOP </h1>
+        <div class="navBar">
+            <a href="#" style="color: #d63485;">Home</a> 
+            <button id="menuOpenBtn">Menu</button> 
+            <button id="menuCloseBtn" style="display: none;">Menu</button> 
+            <a href="./about/about.html" >About</a> 
+            <a href="./contact/contact.html" >Contact</a> 
+        </div>
+        <div>
+            <button  id="openMenu"> <i class="fa-solid fa-bars"></i> </button>
+            <button  id="hideMenu"> <i class="fa-solid fa-bars"></i> </button>
+                <div class="navBar2" id="navBar2">
+                    <a href="#" style="color: #ffffff;">Home</a> 
+                    <button id="menuClick" >Menu</button> 
+                    <button id="menuCloseBtn" style="display: none;">Menu</button> 
+                    <a href="./about/about.html" >About</a> 
+                    <a href="./contact/contact.html" >Contact</a> 
+                </div>
+                
+            <button id="cartOpenBtn" class="roundA" href="#"><span class="cart"><i class="fa-solid fa-cart-shopping"></i> 
+                <div id="roundOpen" class="round"></div> </span>
+            </button>
+            <button id="cartCloseBtn" style="display: none;" class="roundA" href="#"><span class="cart"><i class="fa-solid fa-cart-shopping"></i> 
+                <div id="roundClose" class="round"></div> </span>
+            </button>
+            <button id="buttonUserOpen"><span class="user"><i class="fa-regular fa-user"></i></span></button>
+            <button id="buttonUserClose"><span class="user"><i class="fa-solid fa-user"></i></span></button>
+        </div>
+        </nav>
+        <!-- menu open and close -->
+        <div id="menu" class="menu">
+            <a href="#dog">Dogs <i class="fa-solid fa-dog"></i> </a>
+            <a href="#cat">Cats <i class="fa-solid fa-cat"></i> </a>
+            <a href="#bird">Birds <i class="fa-solid fa-crow"></i> </a>
+            <a href="#fish">Fish <i class="fa-solid fa-fish"></i> </a>
+        </div>
+
+        <!-- cart shoping -->
+        <div style="display: none;" id="cartShoping" class="cartShoping">
+            <button id="buttAll" class="shop"> Buy All </button>
+        </div>
+
+        <!-- form -->
+        <form id="formSingIn" action="#">
+            <h1>Sign in </h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input type="text" placeholder="Login" id="login" />
+            <input type="password" placeholder="Password" id="password" />
+            <a href="#">Forgot your password? 
+            <a href="#" id="signUpA"> Sign Up </a></a> 
+            <button  class="signInbtn" id="signInbtn">Sign In</button>
+        </form>
+        <!-- Sign Up -->
+        <form id="formSingUp" action="#">
+            <h1>Create Account</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your name for registration</span>
+            <input type="text" placeholder="Name" id="Name">
+            <input type="text" placeholder="Login" id="Login">
+            <input type="password" placeholder="Password" id="Password">
+
+            <button id="signUpBtn" class="signUpBtn">Sign Up</button>
+        </form>
+        <!-- end form -->
+        <!-- header -->
+        <header>
+            <h1 class="name">
+                <span class="hi"> Hi </span> Wellcome To <br> Our Pet Shop
+             </h1>
+             <button  class="shopButton shop"> <a href="#btnForShoping">Shop Now</a> </button>
+        </header>
+        <main id="btnForShoping" > 
+            <section>
+                <h4 id="dog">Dogs <span><i class="fa-solid fa-dog"></i></span></h4>
+                <hr>
+                <br><br><br>
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad. </p>
+                            <span  class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+                <br><br><br> 
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad. </p>
+                            <span  class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+                <br><br><br> 
+                <h4 id="cat">Cats <span><i class="fa-solid fa-cat"></i></span></h4>
+                <hr>
+                <br><br><br>
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+                <br><br><br> 
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+                <br><br><br> 
+                <h4 id="fish">Fish <span><i class="fa-solid fa-fish"></i></span></h4>
+                <hr>
+                <br><br><br>
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad. </p>
+                            <span  class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+                <br><br><br> 
+                
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad. </p>
+                            <span  class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+                <br><br><br>
+                <h4 id="bird">Birds <span><i class="fa-solid fa-crow"></i></span></h4>
+                <hr>
+                <br><br><br>
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                        <span   class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+                <br><br><br> 
+                <div class="content">
+                    <div class="buy">
+                        <img  class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span  class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="" alt="shun">
+                        <h2 class="nameH2 animalsName"> </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad.</p>
+                            <span   class="money"></span>
+                            <button class="buyBtn shop">Buy</button>
+                    </div>
+                    <div class="buy">
+                        <img class="animalsImg" src="./img/shun.jpg" alt="shun">
+                        <h2 class="nameH2 animalsName"></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque error eligendi nostrum ad. </p>
+                            <span  class="money"></span>
+                            <button  class="buyBtn shop">Buy</button>
+                    </div>
+                </div>
+        
+                
+            </section>
+        </main>
+
+        <footer> 
+            <div>
+            <button> <i class="fa-brands fa-telegram fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-instagram fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-facebook fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-youtube fa-2xl"></i></button>
+            <button> <i class="fa-brands fa-linkedin fa-2xl"></i></button>
+            </div>
+        </footer>
+</body>
+</html>

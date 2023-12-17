@@ -1,0 +1,383 @@
+{
+    "home" : [
+        {
+            "nav" : {
+                "icon" : "Paw",
+                "mainName" : "Shop",
+                "homeName" : "Home",
+                "menuName" : "Menu",
+                "aboutName" : "Name",
+                "contactName" : "Contact",
+                "iconShop" : "Shop",
+                "iconRegister" : "Register"
+            },
+
+            "menu" : {
+                "Dogs" : {
+                    "Akita" : {
+                        "image" : "https://www.thekennelclub.org.uk/media/1701/japanese-akita-inu-standing.jpg?mode=pad&width=1000&rnd=132143855910000000",
+                        "name": "Akita",
+                        "nature" : "Japan",
+                        "value" : "32$"
+                    },
+
+                    "Basenji" : {
+                        "image" : "https://static.wixstatic.com/media/776026_dd14153c080d443fbb86d8e985f7afe8~mv2.jpg/v1/fill/w_640,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/776026_dd14153c080d443fbb86d8e985f7afe8~mv2.jpg",
+                        "name" : "Basenji",
+                        "nature" : "Central Africa",
+                        "value" : "25$"
+                      
+                    },
+
+                    "GermanShepherd" : {
+                        "image" : "https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg",
+                        "name" : "German Shepherd",
+                        "nature" : "Germany",
+                        "value" : "40$"
+                      
+                    },
+
+                    "Eurasier" : {
+                        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFsgCVQ3XTNTn23CaZ-8E2mvsw0d2Mciwu1A&usqp=CAU",
+                        "name" : "Eurasier",
+                        "nature" : "Germany",
+                        "value" : "50$"
+                        
+                    },
+
+                    "ArmenianGampr" : {
+                        "image" : "https://puppytoob.com/wp-content/uploads/2021/07/shutterstock_1877233525-768x512.jpg",
+                        "name" : "Armenian Gampr",
+                        "value" : "45$"
+                    },
+
+                    "Laika" : {
+                        "image" : "https://sobakovod.club/uploads/posts/2021-12/1639314880_1-sobakovod-club-p-sobaki-shotlandskaya-laika-1.jpg",
+                        "name" : "Laika",
+                        "nature" : "Russia",
+                        "value" : "30$"
+                    }
+                },
+                
+
+                "Cats" : {
+                    "Sphinx" : {
+                        "name": "Sphinx",
+                        "image": "https://static3.depositphotos.com/1000958/123/i/450/depositphotos_1230305-stock-photo-sphynx-cat.jpg",
+                        "value": "1500$"
+                    },  
+                    
+                    "Britania" : {
+                        "name": "Britania",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzC8z-lGVQ45BrIU_eCbXnq6Hnn0upl7JtdZQQqKEeQAzsEeb_1XJXvAmInPb0rW5HKpk&usqp=CAU",
+                        "value": "800$"
+                    },  
+                    
+                    "Frans" : {
+                        "name": "Frans",
+                        "image": "https://www.freepnglogos.com/uploads/cat-png/transparent-images-cat-19.png",
+                        "value": "450$"
+                    },  
+
+                    "Bengali" : {
+                        "name": "Bengali",
+                        "image": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-06/Bengal-Cat.jpg?itok=-n4U6Hsa",
+                        "value": "1000$"
+                    },
+
+                    "Cohtland" : {
+                        "name": "Cohtland",
+                        "image": "https://w1.pngwing.com/pngs/810/308/png-transparent-cat-scottish-fold-pet-whiskers-american-wirehair-paw-snout-kitten.png",
+                        "value": "1500$"
+                    },
+
+                    "Himalayan" : {
+                        "name": "Himalayan",
+                        "image": "https://media.istockphoto.com/id/93149796/photo/cat.jpg?s=612x612&w=0&k=20&c=TDRhuHWH0slV5bv5RogkxSSUiBFvqXGhACqf6wCB2Do=",
+                        "value": "1600$"
+                    }    
+                },
+
+                "Fish": {
+                    "GoldFish" : {
+                        "name": "Gold fish",
+                        "image": "https://freepngimg.com/thumb/fish/22717-2-real-fish-transparent-background.png",
+                        "value": "1500$"
+                    },  
+                    
+                    "AngelFish" : {
+                        "name": "Angel fish",
+                        "image": "https://www.nicepng.com/png/detail/5-51931_angel-fish-png-transparent-background-fish-png.png",
+                        "value": "90$"
+                    },  
+                    
+                    "DwarfGourami" : {
+                        "name": "Dwarf Gourami",
+                        "image": "https://www.aqueon.com/-/media/project/oneweb/aqueon/us/assets/care-sheets/gourami_600x400.png",
+                        "value": "550$"
+                    },  
+                    
+                    "FancyGuppy" : {
+                        "name": "Fancy Guppy",
+                        "image": "https://media.istockphoto.com/id/459078621/photo/colorful-guppy-fish-isolated-in-white-poecilia-reticulata.jpg?s=612x612&w=0&k=20&c=ucX2EXsdyBxrl-WqIdX5YbvCSyExsd1Vu5W9a1YeoLY=",
+                        "value": "900$"
+                    },  
+                     
+                    "JackDempsey": {
+                        "name": "Jack Dempsey",
+                        "image": "https://aquamarket.co.za/wp-content/uploads/2021/12/lg97300ElectricBlueJackDempsey-removebg-preview-min-600x600-1.png",
+                        "value": "600$"
+                    },  
+                    
+                    "PeacockCichlid " : {
+                        "name": "Peacock Cichlid ",
+                        "image": "https://thumbs.dreamstime.com/b/cichlid-fish-blue-isotated-white-background-33175034.jpg",
+                        "value": "290$"
+                    }
+                    
+                },
+                
+                "Birds": {
+                    "Roller" : {
+                        "name": "Roller",
+                        "image": "https://a-z-animals.com/media/2021/10/lilac-breasted-roller-1.jpg",
+                        "value": "1500$"
+                    },  
+                    
+                    "Parrot" : {
+                        "name": "Parrot",
+                        "image": "https://a-z-animals.com/media/2021/10/nanday-conure-1.jpg",
+                        "value": "90$"
+                    },  
+                    
+                    "HydrornisGurneyi" :{
+                        "name": "Hydrornis gurneyi",
+                        "image": "https://justbirding.com/wp-content/uploads/2018/12/beautiful-bird-Bombycilla-garrulus-768x548.webp",
+                        "value": "550$"
+                    },
+                    
+                    "BombycillaGarrulus" : {
+                        "name": "Bombycilla garrulus",
+                        "image": "https://justbirding.com/wp-content/uploads/2018/12/gurneys-pitta-Hydrornis-gurneyi-731x1024.webp",
+                        "value": "900$"
+                    },  
+                    
+                    "DuskyLory" : {
+                        "name": "Dusky Lory",
+                        "image": "https://thumbs.dreamstime.com/b/dusky-lory-pseudeos-fuscata-species-parrot-also-known-as-white-rumped-lory-dusky-orange-lory-banded-lories-dus-248349864.jpg",
+                        "value": "600$"
+                    },
+
+                    " ParadisaeaRudolphi" : {
+                        "name": " Paradisaea rudolphi",
+                        "image": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/266557401/1800",
+                        "value": "290$"
+                    }
+                }
+            },
+
+            "RegisterInfo" : {
+                "iconRegisterInfoFacebook" : "Facebook",
+                "iconRegisterInfoGooglePluse" : "Google Pluse",
+                "iconRegisterInfoLinkedinIn" : "Linkedin In",
+                "registerInfo" : "or use your account",
+                "writeLogin" : "",
+                "writePassword" : "", 
+                "hackPassword" : "Forgot your password?",
+                "registerSingUP" : "Sing Up",
+                "registerSingIn" : "Sing In"
+            },
+
+            "SingUp" : {
+                "nameSingUp" : "Create Account",
+                "iconSingUpFacebook" : "Facebook",
+                "iconSingUpGooglePluse" : "Google Pluse",
+                "iconSingUpLinkedinIn" : "Linkedin In",
+                "infoSingUp" : "or use your name for registration",
+                "writeSingUpName" : "",
+                "writeSingUpLogin" : "",
+                "writeSingUpPassword" : "",
+                "buttonSingUp" : "Sing Up"
+            },
+
+            "Home" : {
+                "imgageHom" : "./img/shun2.jpg",
+                "mainHome" : "Hi Wellcome To Our Pet Shop",
+                "shopNow" : "Shop Now", 
+                "BuyAnimals" : {
+                    "Dogs" : { 
+                        "Akita" : {
+                            "image" : "https://www.thekennelclub.org.uk/media/1701/japanese-akita-inu-standing.jpg?mode=pad&width=1000&rnd=132143855910000000",
+                            "name": "Akita",
+                            "nature" : "Japan",
+                            "value" : "32$"
+                    
+                        },
+
+                        "Basenji" : {
+                            "image" : "https://static.wixstatic.com/media/776026_dd14153c080d443fbb86d8e985f7afe8~mv2.jpg/v1/fill/w_640,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/776026_dd14153c080d443fbb86d8e985f7afe8~mv2.jpg",
+                            "name" : "Basenji",
+                            "nature" : "Central Africa",
+                            "value" : "25$"
+                        },
+
+                        "GermanShepherd" : {
+                            "image" : "https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg",
+                            "name" : "German Shepherd",
+                            "nature" : "Germany",
+                            "value" : "40$"
+                    
+                        },
+
+                        "Eurasier" : {
+                            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFsgCVQ3XTNTn23CaZ-8E2mvsw0d2Mciwu1A&usqp=CAU",
+                            "name" : "Eurasier",
+                            "nature" : "Germany",
+                            "value" : "50$"
+                            
+                        },
+
+                        "ArmenianGampr" : {
+                            "image" : "https://puppytoob.com/wp-content/uploads/2021/07/shutterstock_1877233525-768x512.jpg",
+                            "name" : "Armenian Gampr",
+                            "nature" : "Armenia",
+                            "value" : "45$"
+                        },
+
+                        "Laika" : {
+                            "image" : "https://sobakovod.club/uploads/posts/2021-12/1639314880_1-sobakovod-club-p-sobaki-shotlandskaya-laika-1.jpg",
+                            "name" : "Laika",
+                            "nature" : "Russia",
+                            "value" : "30$"
+                        }
+                    },
+
+                    "Cats" : {
+                        "Sphinx" : {
+                            "name": "Sphinx",
+                            "image": "https://images.pexels.com/photos/1469228/pexels-photo-1469228.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "1500$"
+                        },  
+                        
+                        "Britania" : {
+                            "name": "Britania",
+                            "image": "https://images.pexels.com/photos/800152/pexels-photo-800152.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "800$"
+                        },  
+                        
+                        "Frans" : {
+                            "name": "Frans",
+                            "image": "https://images.pexels.com/photos/209058/pexels-photo-209058.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "450$"
+                        },  
+
+                        "Bengali" : {
+                            "name": "Bengali",
+                            "image": "https://images.pexels.com/photos/951336/pexels-photo-951336.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "1000$"
+                        },
+
+                        "Cohtland" : {
+                            "name": "Cohtland",
+                            "image": "https://images.pexels.com/photos/236603/pexels-photo-236603.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "1500$"
+                        },
+
+                        "Himalayan" : {
+                            "name": "Himalayan",
+                            "image": "https://images.pexels.com/photos/357141/pexels-photo-357141.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "1600$"
+                        }    
+                    },
+
+                    "Fish": {
+                        "GoldFish" : {
+                            "name": "Gold fish",
+                            "image": "https://t3.ftcdn.net/jpg/00/96/98/50/240_F_96985054_x4novCLW8eW93jiwJiNt4yE5m9wmumyi.jpg",
+                            "value": "1500$"
+                        },  
+                        
+                        "AngelFish" : {
+                            "name": "Angel fish",
+                            "image": "https://images.pexels.com/photos/8856048/pexels-photo-8856048.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "90$"
+                        },  
+                        
+                        "DwarfGourami" : {
+                            "name": "Dwarf Gourami",
+                            "image": "https://images.pexels.com/photos/3905047/pexels-photo-3905047.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "550$"
+                        },  
+                        
+                        "FancyGuppy" : {
+                            "name": "Fancy Guppy",
+                            "image": "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "900$"
+                        },  
+                         
+                        "JackDempsey": {
+                            "name": "Jack Dempsey",
+                            "image": "https://images.pexels.com/photos/7987532/pexels-photo-7987532.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "600$"
+                        },  
+                        
+                        "PeacockCichlid " : {
+                            "name": "Peacock Cichlid ",
+                            "image": "https://images.pexels.com/photos/9004398/pexels-photo-9004398.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "290$"
+                        }
+                        
+                    },
+                    
+                    "Birds": {
+                        "Roller" : {
+                            "name": "Roller",
+                            "image": "https://a-z-animals.com/media/2021/10/lilac-breasted-roller-1.jpg",
+                            "value": "1500$"
+                        },  
+                        
+                        "Parrot" : {
+                            "name": "Parrot",
+                            "image": "https://a-z-animals.com/media/2021/10/nanday-conure-1.jpg",
+                            "value": "90$"
+                        },  
+                        
+                        "HydrornisGurneyi" :{
+                            "name": "Hydrornis gurneyi",
+                            "image": "https://justbirding.com/wp-content/uploads/2018/12/beautiful-bird-Bombycilla-garrulus-768x548.webp",
+                            "value": "550$"
+                        },
+                        
+                        "BombycillaGarrulus" : {
+                            "name": "Bombycilla garrulus",
+                            "image": "https://images.pexels.com/photos/792416/pexels-photo-792416.jpeg?auto=compress&cs=tinysrgb&w=600",
+                            "value": "900$"
+                        },  
+                        
+                        "DuskyLory" : {
+                            "name": "Dusky Lory",
+                            "image": "https://thumbs.dreamstime.com/b/dusky-lory-pseudeos-fuscata-species-parrot-also-known-as-white-rumped-lory-dusky-orange-lory-banded-lories-dus-248349864.jpg",
+                            "value": "600$"
+                        },
+
+                        " ParadisaeaRudolphi" : {
+                            "name": " Paradisaea rudolphi",
+                            "image": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/266557401/1800",
+                            "value": "290$"
+                        }
+                    }
+                }, 
+
+                "Footer" : {
+                    "linkFooterTelegram" : "Telegram",
+                    "linkFooterInstagram" : "Instagram",
+                    "linkFooterFacebook" : "Facebook",
+                    "linkFooterYoutube" : "Youtube",
+                    "linkFooterLinkedinIn": "Linkedin In"
+                }
+
+            }
+
+        }
+    ]
+}
